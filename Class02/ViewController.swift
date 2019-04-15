@@ -13,6 +13,23 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        let a = add(a : 2, b : 5)
+        
+        if a > 0 {
+            print("a 值為 ： \( a )")
+        }
+        else{
+            print("\( a )")
+        }
+        
+        
+        
+    }
+    
+    func add(a : Int, b : Int) -> Int {
+        return a + b
     }
 
 
